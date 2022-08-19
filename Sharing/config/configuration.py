@@ -70,7 +70,11 @@ class Configuration:
 
     
     def get_data_validation_config(self) ->DataValidationConfig:
-        pass
+        try:
+            pass
+        except Exception as e:
+            raise SharingException(e,sys) from e
+
 
     def get_data_transformation_config(self) ->DataTransformationConfig:
         pass
