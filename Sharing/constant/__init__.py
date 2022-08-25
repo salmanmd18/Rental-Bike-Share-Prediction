@@ -42,3 +42,50 @@ TARGET_COLUMN_KEY = "target_column"
 DATASET_SCHEMA_COLUMNS_KEY=  "columns"
 DATASET_DOMAIN_VALUE_KEY ="domain_value"
 DATASET_SEASON_DOMAIN_VALUE = 'season'
+
+# Data Transformation related variables
+DATA_TRANSFORMATION_ARTIFACT_DIR = "data_transformation"
+DATA_TRANSFORMATION_CONFIG_KEY = "data_transformation_config"
+DATA_TRANSFORMATION_DIR_NAME_KEY = "transformed_dir"
+DATA_TRANSFORMATION_TRAIN_DIR_NAME_KEY = "transformed_train_dir"
+DATA_TRANSFORMATION_TEST_DIR_NAME_KEY = "transformed_test_dir"
+DATA_TRANSFORMATION_PREPROCESSING_DIR_KEY = "preprocessing_dir"
+DATA_TRANSFORMATION_PREPROCESSED_FILE_NAME_KEY = "preprocessed_object_file_name"
+
+# Model Training related variables
+MODEL_TRAINER_ARTIFACT_DIR = "model_trainer"
+MODEL_TRAINER_CONFIG_KEY = "model_trainer_config"
+MODEL_TRAINER_TRAINED_MODEL_DIR_KEY = "trained_model_dir"
+MODEL_TRAINER_TRAINED_MODEL_FILE_NAME_KEY = "model_file_name"
+MODEL_TRAINER_BASE_ACCURACY_KEY = "base_accuracy"
+MODEL_TRAINER_MODEL_CONFIG_DIR_KEY = "model_config_dir"
+MODEL_TRAINER_MODEL_CONFIG_FILE_NAME_KEY = "model_config_file_name"
+
+# Model Evaluation related variables
+MODEL_EVALUATION_CONFIG_KEY = "model_evaluation_config"
+MODEL_EVALUATION_FILE_NAME_KEY = "model_evaluation_file_name"
+MODEL_EVALUATION_ARTIFACT_DIR = "model_evaluation"
+
+## Model Factory Related variables 
+
+GRID_SEARCH_KEY = 'grid_search'
+MODULE_KEY = 'module'
+CLASS_KEY = 'class'
+PARAM_KEY = 'params'
+MODEL_SELECTION_KEY = 'model_selection'
+SEARCH_PARAM_GRID_KEY = "search_param_grid"
+
+BEST_MODEL_KEY = "best_model"
+HISTORY_KEY = "history"
+MODEL_PATH_KEY = "model_path"
+
+EXPERIMENT_DIR_NAME="experiment"
+EXPERIMENT_FILE_NAME="experiment.csv"
+
+# Model Pusher Related variables 
+MODEL_PUSHER_CONFIG_KEY = "model_pusher_config"
+MODEL_PUSHER_MODEL_EXPORT_DIR_KEY = "model_export_dir"
+
+## Experiment Related variables 
+EXPERIMENT_DIR_NAME="experiment"
+EXPERIMENT_FILE_NAME="experiment.csv"
