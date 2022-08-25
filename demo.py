@@ -9,6 +9,8 @@ def main():
         
         config_path = os.path.join("config","config.yaml")
         pipeline = Pipeline(Configuration(config_file_path=config_path))
+        data_validation_config = Configuration().get_data_validation_config()
+        print(data_validation_config)
         pipeline.run_pipeline()
     except Exception as e:
         logging.error(f"{e}")

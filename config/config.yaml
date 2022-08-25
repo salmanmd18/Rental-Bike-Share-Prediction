@@ -3,7 +3,7 @@ training_pipeline_config:
   artifact_dir: artifact
 
 data_ingestion_config:
-  dataset_download_url: https://raw.githubusercontent.com/salmanmd18/Dataserts/main/hour.csv
+  dataset_download_url: https://raw.githubusercontent.com/salmanmd18/Dataserts/main/hour_updated.csv
   raw_data_dir: raw_data
   tgz_download_dir: tgz_data
   ingested_dir: ingested_data
