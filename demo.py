@@ -12,6 +12,7 @@ def main():
         data_validation_config = Configuration().get_data_validation_config()
         print(data_validation_config)
         pipeline.run_pipeline()
+        print("fd")
     except Exception as e:
         logging.error(f"{e}")
         print(e)
