@@ -6,7 +6,7 @@ from flask import Flask,send_file, abort, render_template, request,url_for
 from Sharing.exception import SharingException
 from Sharing.config.configuration import Configuration
 from Sharing.constant import CONFIG_DIR, get_current_time_stamp
-from sharing.pipeline.pipeline import Pipeline
+from Sharing.pipeline.pipeline import Pipeline
 from sharing.util.util import read_yaml_file, write_yaml_file
 from sharing.logger import get_log_dataframe
 from sharing.entity.sharing_predictor import SharingPredictor, SharingData
